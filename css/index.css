@@ -186,116 +186,12 @@ h2 {
 .jumbotron-form button {
 	background: #FF3366;
 	outline: none;
-	width: 80%;
+	width: 84%;
 	padding: 0.5em;
-	border-radius: 5px;
+	border-radius: 2px;
 	cursor: pointer;
 	color: white;
 	border: none;
-}
-
-/* Beginning of enjoy your stay section */
-.enjoy-container {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-.enjoy-header {
-	width: 80%;
-	margin: 1em auto;
-}
-.enjoy-header h1 {
-	padding-top: 2em;
-}
-.enjoy-header > p {
-	width: 40%;
-}
-.enjoy-services {
-	display: flex;
-	flex-direction: row;
-	width: 80%;
-	margin: 1em auto;
-	margin-bottom: 5em;
-	/* border: 1px solid black; */
-}
-.enjoy-services h2 {
-	margin-bottom: 1em;
-}
-.first-col {
-	/* border: 1px solid black; */
-	flex: 1;
-	margin-right: 2em;
-}
-.sec-col {
-	/* border: 1px solid black; */
-	flex: 1;
-	margin-right: 2em;
-}
-.third-col {
-	/* border: 1px solid black; */
-	flex: 2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-}
-
-.upper,
-.lower {
-	padding-left: 2em;
-	margin-bottom: 2em;
-	position: relative;
-}
-.enjoy__clock-icon,
-.enjoy__fitness-icon,
-.enjoy__wifi-icon,
-.enjoy__coffee-icon {
-	position: absolute;
-	top: 0px;
-	left: -13px;
-}
-
-.enjoy__play-icon {
-	position: absolute;
-	cursor: pointer;
-}
-
-/* End----------------------- */
-
-/* Beginning of simplicity is our watch word section styling */
-.special-offers {
-	padding: 0 0 80px;
-}
-
-.offers-title {
-	font-size: 165%;
-	margin: 25px 0 15px;
-}
-
-.offers-sub-title {
-	font-size: 18px;
-	color: #3b331a;
-	font-weight: 300;
-	margin-bottom: 20px;
-}
-
-.offers-list {
-	list-style: none;
-	margin-bottom: 30px;
-}
-
-.offers-list li {
-	margin: 12px 0;
-}
-
-.list-icon {
-	height: 17px;
-	vertical-align: middle;
-	margin-right: 5px;
-}
-
-.list-text {
-	display: inline-block;
 }
 
 .btn {
@@ -314,93 +210,9 @@ h2 {
 	background-color: #FF3366;
 	color: #fff;
 }
-.rates {
-	border-radius: 5px;
-}
 
-.rates:active,
-.rates:hover {
-	background-color: #c9a633;
-	border: 1px solid #c9a633;
-}
-
-.btn-fill:hover,
-.btn-fill:active {
-	background-color: #c9a633;
-	transform: translateY(-3px);
-	border: 1px solid #c9a633;
-}
-
-.btn-ghost {
-	color: #d4af37;
-	background-color: #fff;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-	background-color: #d4af37;
-	color: #fff;
-}
-
-.btn-large {
-	font-size: 16px;
-	width: 133px;
-	padding: 12px 22px;
-	border-radius: 4px;
-}
 
 /* End----------------------------*/
-
-/* Beginning of client review section styles */
-.review-container {
-	width: 80%;
-	margin: 1em auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.review-header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.review-header > p {
-	text-align: center;
-}
-.cards-container {
-	display: flex;
-	margin-top: 2em;
-	margin-bottom: 4em;
-}
-.card {
-	flex: 1;
-	border: 1px solid rgb(158, 158, 158);
-	min-height: 40vh;
-	margin-right: 2em;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 1em 1em 1em 1em;
-	line-height: 1.5em;
-}
-.card-title {
-	font-size: 25px;
-}
-.card-avi {
-	width: 30%;
-	margin: 2em 0;
-}
-.card-subtitle {
-	margin-bottom: 1em;
-}
-.card-desc {
-	font-size: 18px;
-	font-weight: 300;
-}
-
-/* End----------------------------------------- */
 
 /* @media queries */
 /* Extra small devices (phones, 600px and down) */
@@ -426,26 +238,6 @@ h2 {
 
 	.jumbotron-header br {
 		display: none;
-	}
-
-	.enjoy-services {
-		flex-direction: column;
-	}
-	.enjoy-header,
-	.enjoy-container,
-	.enjoy-header h1 {
-		text-align: center;
-	}
-	.enjoy-header > p {
-		width: 100%;
-	}
-	/* Enjoy section icons for mobile */
-	.enjoy__clock-icon,
-	.enjoy__fitness-icon,
-	.enjoy__wifi-icon,
-	.enjoy__coffee-icon {
-		position: unset;
-		padding: 0.5rem;
 	}
 	.page-header {
 		text-align: center;
@@ -509,39 +301,15 @@ h2 {
 		margin-bottom: 1em;
 	}
 
-	.enjoy-services {
-		margin-bottom: 0.5em;
-	}
-
-	.special-offers {
-		padding: 0 0 35px;
-	}
-
-	.enjoy__play-icon {
-		z-index: 2;
-		width: 4rem;
-		opacity: 0.9;
-		height: 4rem;
-	}
-
-	.page-header,
-	.enjoy-heading {
-		text-transform: capitalize;
-		text-align: center;
-	}
-
-	.horizontal {
-		height: 2px;
-		width: 39%;
-	}
-
-	.enjoy-heading {
-		margin-top: 20px;
-		font-size: 30px;
-	}
-
-	.enjoy-heading br {
-		display: none;
+	.jumbotron-form button {
+		background: #FF3366;
+		outline: none;
+		width: 84%;
+		padding: 0.5em;
+		border-radius: 2px;
+		cursor: pointer;
+		color: white;
+		border: none;
 	}
 
 	.first-col,
@@ -646,20 +414,16 @@ h2 {
 		margin: 1em auto;
 		padding: 1em 0.5em;
 	}
-	.enjoy-header,
-	.enjoy-container,
-	.enjoy-header h1 {
-		text-align: center;
-	}
-	.enjoy-header > p {
-		width: 100%;
-	}
-	.enjoy-services {
-		flex-direction: column;
-	}
 
-	.page-header {
-		padding: 0 100px 0 100px;
+	.jumbotron-form button {
+		background: #FF3366;
+		outline: none;
+		width: 84%;
+		padding: 0.5em;
+		border-radius: 2px;
+		cursor: pointer;
+		color: white;
+		border: none;
 	}
 
 	.card {
@@ -704,5 +468,193 @@ h2 {
 	}
 	.enjoy-services {
 		flex-direction: row;
+	}
+}
+
+/* Large devices (portrait tablets, 768px and up) */
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+	.image-col {
+		margin: auto;
+	}
+	.jumbotron-container {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.jumbotron-left {
+		padding: 1.5rem;
+		margin-top: 1.5rem;
+	}
+
+	.jumbotron-header {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.jumbotron-header br {
+		display: none;
+	}
+
+	.jumbotron-form button {
+		background: #FF3366;
+		outline: none;
+		width: 84%;
+		padding: 0.5em;
+		border-radius: 2px;
+		cursor: pointer;
+		color: white;
+		border: none;
+	}
+
+	.page-header {
+		text-align: center;
+		padding: 1.5rem;
+		font-size: 35px;
+		margin-top: 1rem;
+		margin-bottom: 0.8rem;
+	}
+
+	.cards-container {
+		flex-direction: column;
+	}
+
+	.card {
+		margin-bottom: 1em;
+	}
+
+	.page-header:after {
+		margin: 0.5em auto 0 auto;
+		height: 2px;
+	}
+
+	.page-header-container {
+		margin-bottom: 15px;
+	}
+
+	.btn-large {
+		margin-bottom: 1em;
+		margin: auto;
+		font-weight: 700;
+		font-size: 80%;
+		padding: 17px 30px;
+	}
+
+	.horizontal {
+		margin: 1em auto 2em auto;
+	}
+
+	.jumbotron-form {
+		width: 85%;
+		margin: 1.2em auto;
+		padding: 1.2em 0.7em;
+		text-align: center;
+	}
+
+	.jumbotron-form h3 {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.jumbotron-form p {
+		font-size: 18px;
+	}
+
+	.jumbotron-form p br {
+		display: none;
+	}
+
+	.jumbotron-left p {
+		font-size: 19px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	.jumbotron-right .jumbotron-left,
+	.jumbotron-right {
+		flex: 1;
+	}
+
+	.jumbotron-form button {
+		margin-bottom: 1em;
+	}
+
+	.first-col,
+	.sec-col {
+		margin-right: unset;
+	}
+
+	.upper,
+	.lower {
+		padding-left: unset;
+	}
+
+	.third-col {
+		order: -1;
+		margin-bottom: 1rem;
+	}
+
+	.third-col-video {
+		width: 100%;
+		filter: drop-shadow(2px 4px 6px black);
+	}
+
+	.side-by-side-container {
+		flex-direction: column;
+	}
+
+	.stacked-image-container {
+		flex-direction: row;
+	}
+
+	.offers-sub-title {
+		padding: 1.2rem;
+	}
+
+	.offers-sub-title br {
+		display: none;
+	}
+
+	.offers-list {
+		margin-left: 1.8rem;
+	}
+
+	.centered {
+		margin: auto;
+		display: block;
+		width: 50%;
+		text-align: center;
+	}
+
+	.img-hide {
+		display: none;
+	}
+
+	.review-title {
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.card {
+		width: 100%;
+	}
+
+	.card-avi {
+		width: 30%;
+		display: block;
+		margin: 1.5rem auto;
+	}
+
+	.card-title,
+	.card-subtitle {
+		width: 100%;
+		text-align: center;
+	}
+
+	.card-subtitle {
+		font-weight: 300;
 	}
 }
