@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+        <div class="container">
+          <header class="header">
+            <img src="img/logo.png" alt="trillo logo" class="logo">
+            <form action="#" class="search">
+              <input type="text" class="search__input" placeholder="Search hotels">
+              <button class="search__button">
+                <svg class="search__icon">
+                  <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+              </button>
+            </form>
+            <nav class="user-nav">
+              <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                </svg>
+                <span class="user-nav__notification">9</span>
+              </div>
+              <div class="user-nav__icon-box">
+                  <svg class="user-nav__icon">
+                      <use xlink:href="img/sprite.svg#icon-chat"></use>
+                  </svg>
+                  <span class="user-nav__notification">20</span>             
+              </div>
+              <div class="user-nav__user">
+                <a href="profile.html" class="user-nav__user-link">
+                  <img src="logo.jpg" alt="User photo" class="user-nav__user-photo">
+                </a>
+                <span class="user-nav__user-name">Defasa M.A.</span>
+              </div>
+            </nav>
+          </header>
+          <div class="content">
+            <nav class="sidebar">
+              <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                  <a href="index.html" class="side-nav__link">
+                    <svg class="side-nav__icon">
+                      <use xlink:href="img/sprite.svg#icon-home">
+                      </use>
+                    </svg>
+                    <span>Hotel</span>
+                  </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="flight.html" class="side-nav__link">
+                      <svg class="side-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-aircraft-take-off">
+                        </use>
+                      </svg>
+                      <span>Flight</span>
+                    </a>
+                  </li>
+                  <li class="side-nav__item">
+                    <a href="car.html" class="side-nav__link">
+                      <svg class="side-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-key">
+                        </use>
+                      </svg>
+                      <span>Car Rental</span>
+                    </a>
+                  </li>
+                  <li class="side-nav__item">
+                    <a href="tours.html" class="side-nav__link">
+                      <svg class="side-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-map">
+                        </use>
+                      </svg>
+                      <span>Tours</span>
+                    </a>
+                  </li>
+              </ul>
+              <div class="legal">
+                &copy; 2025 by Depasaa. All rights reserved.
+              </div>
+            </nav>
+            <!-- Hotel View Section -->
+            <main class="hotel-view">
+                <!-- GALLERY -->
+                <div class="gallery">
+                  <figure class="gallery__item">
+                    <img src="img/pesawat1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                  </figure>
+                  <figure class="gallery__item">
+                    <img src="img/pesawat2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                  </figure>
+                  <figure class="gallery__item">
+                    <img src="img/pesawat3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                  </figure>
+                </div>
+                
+                <!-- HOTEL OVERVIEW -->
+                <div class="overview">
+                  <h1 class="overview__heading">Plane Ticket</h1>
+                  <div class="overview__stars">
+                    <svg class="overview__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </div>
+
+                  <div class="overview__location">
+                      <svg class="overview__location--icon">
+                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                      </svg>
+                      <button class="btn-inline">Sydney, Australia</button>
+                  </div>
+
+                  <div class="overview__rating">
+                    <div class="overview__rating--average">9.0</div>
+                    <div class="overview__rating--count">430 votes</div>
+                  </div>
+                </div>
+
+                <!-- DETAILS -->
+                <div class="detail">
+                  <div class="description">
+                    <p class="paragraph">
+                      Book flight tickets to your dream destination easily and quickly with just a few clicks.
+                    </p>
+
+                    <ul class="list">
+                      <li class="list__item">Flexible booking options</li>
+                      <li class="list__item">Competitive ticket prices</li>
+                      <li class="list__item">Direct and connecting flights</li>
+                      <li class="list__item">In-flight meals included</li>
+                      <li class="list__item">Wide range of airlines</li>
+                      <li class="list__item">Easy seat selection</li>
+                      <li class="list__item">Baggage allowance options</li>
+                      <li class="list__item">24/7 customer support</li>
+                    </ul>
+                    <div class="recommend">
+                      <p class="recommend__count">
+                        Lucy and 3 others friends recommend this flight.
+                      </p>
+                      <div class="recommend__friends">
+                        <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                        <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                        <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                        <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="user-reviews">
+                    <figure class="review">
+                      <blockquote class="review__text">
+                        Great and classy hotel, I would recommend it to my friends and their families.
+                      </blockquote>
+                      <figcaption class="review__user">
+                        <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                        <div class="review__user--box">
+                          <p class="review__user--name">Nick Smith</p>
+                          <p class="review__user--date">23 February 2017</p>
+                        </div>
+                        <div class="review__rating">8.2</div>
+                      </figcaption>
+                    </figure>
+
+                    <figure class="review">
+                      <blockquote class="review__text">
+                        Friendly hotel staff make your stay pleasurable and without any hassles. The hotel employees
+                        have genuine concern for their guests.
+                      </blockquote>
+                      <figcaption class="review__user">
+                        <img src="img/user-2.jpg" alt="User 2" class="review__photo">
+                        <div class="review__user--box">
+                            <p class="review__user--name">Catriona Balf</p>
+                            <p class="review__user--date">20 April 2017</p>
+                        </div>
+                        <div class="review__rating">7.6</div>
+                      </figcaption>
+                    </figure>
+
+                    <button class="btn-inline">Show All <span>&rarr;</span></button>
+                  </div>
+                </div>
+                
+                <div class="cta">
+                  <h2 class="cta__book-now">
+                    Guaranteed you will be satisfied!
+                  </h2>
+                  <button class="btn" onclick="location.href='bflight.html'">
+                    <span class="btn__visible">Book Now</span>
+                    <span class="btn__hidden">Before it's to late!</span>
+                  </button>                  
+                </div>
+            </main>
+          </div>
+        </div>
+    </body>
+    <script>
+      // Mendapatkan semua elemen menu
+      const navItems = document.querySelectorAll('.side-nav__item');
+      const currentPage = window.location.pathname.split('/').pop(); // Mendapatkan nama file halaman saat ini
+    
+      // Iterasi semua elemen menu
+      navItems.forEach((item) => {
+        const link = item.querySelector('.side-nav__link');
+        if (link.getAttribute('href') === currentPage) {
+          item.classList.add('side-nav__item--active'); // Menambahkan class jika link sesuai dengan halaman saat ini
+        } else {
+          item.classList.remove('side-nav__item--active'); // Menghapus class untuk menu lainnya
+        }
+      });
+    </script>
+    
+</html>
